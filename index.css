@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    min-height: 100vh;
+    max-width: 100vw;
+    background-color: rgb(230, 230, 235);
+}
+
+nav .logo-container img {
+    width: 45px;
+    height: 45px;
+}
+
+.hero {
+    background: linear-gradient(to right, rgba(245,245,245,0.8), rgba(245,245,245,0.8)),url(./assets/images/common-bg.svg);
+    height: 60vh;
+}
+.hero button {
+    letter-spacing: 3px;
+}
+.name-container {
+    max-width: 80vw;
+}
+.social {
+    width: 80px;
+    top: 35%;
+    background-color: transparent;
+}
+.social a img {
+    width: 30px;
+    height: 30px;
+    filter: grayscale(0.6);
+    position: relative;
+}
+
+.social a img:hover {
+    filter: grayscale(0);
+}
+
+
+@media only screen and (max-width:900px) {
+    .social-icons img {
+        display: none ;
+    }
+}
+
+/* about */
+
+.skills-container {
+    display: flex;
+
+}
+.btn-small {
+    /* border: 2px solid orange; */
+    /* background-color: orange; */
+    border-radius: 4px;
+}
+
+p {
+    font-size: 18px;
+}
+.about-hr {
+    width: 60px;
+    border-width: 4px;
+    color: orange;
+    margin: auto auto;
+    padding-bottom: 1.2rem;
+}
+.about-me p a {
+        text-decoration: none;
+}
+
+/* project  */
+
+.project img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.visit {
+    text-decoration: none;
+}
+/* footer  */
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.social-container {
+    width: 30px;
+    height: 30px;
+    margin: 20px;
+
+}
+.social-container img {
+    width: 100%;
+    height: 100%;
+    filter: grayscale(0.6);
+}
