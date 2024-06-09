@@ -13,7 +13,7 @@ nav .logo-container img {
     width: 45px;
     height: 45px;
 }
-.navbar-nav ul li:hover {
+.collapse navbar-collapse ul li:hover {
     color: blue;
 }
 
