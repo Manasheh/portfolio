@@ -111,7 +111,7 @@ p {
 }
 .visit:hover {
     background-color: white !important;
-    border: 2px solid rgb(56, 56, 56);
+    border: 2px solid rgb(56, 56, 56) !important;
 }
 /* footer  */
 .footer {
