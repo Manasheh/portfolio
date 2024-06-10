@@ -131,3 +131,30 @@ p {
     height: 100%;
     filter: grayscale(0.6);
 }
+.contact-header {
+    display: flex;
+    padding: 1rem;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0.5rem;
+    gap: 1rem;
+}
+.mail-container, .phone-container {
+    margin-bottom: 10px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFC107;
+    padding: 1rem 2rem;
+}
+.contact-header a {
+    margin-left: 1rem;
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 900px) {
+    .contact-header {
+        flex-direction: column;
+    }
+}

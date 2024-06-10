@@ -81,24 +81,25 @@
         </a>
 
       </div>
+      <div class="contact-header">
+          <div class="phone-container visit">
+            <h4>053-458-1045</h4>
+          </div>
+          <div class="mail-container visit">
+            <a href="mailto:vaipheimanasheh@gmail.com">vaipheimanasheh@gmail.com</a>
+          </div>
+    </div>
+    
       
       <div
         class="social position-absolute d-flex flex-column align-items-center gap-3 start-0"
       >
-        <a class="social-icons" href="https://www.facebook.com/">
-          <img src="./assets/images/facebook.svg" alt="" />
-        </a>
-        <a class="social-icons" href="https://www.instagram.com/">
-          <img src="./assets/images/instagram.svg" alt="" />
-        </a>
+        
         <a
           class="social-icons"
           href="https://www.linkedin.com/in/menashe-vaiphei-924476119/"
         >
           <img src="./assets/images/linkedin.svg" alt="" />
-        </a>
-        <a class="social-icons" href="https://www.youtube.com/">
-          <img src="./assets/images/youtube-color.svg" alt="" />
         </a>
         <a
           class="social-icons"
@@ -228,53 +229,60 @@
       >
         <div class="container-lg">
           <form
-            class="bg-white p-4 p-lg-5 rounded d-flex flex-column align-items-center"
-          >
-            <div class="mb-3 w-100">
-              <label for="exampleInputName" class="form-label">Name</label>
-              <input
-                type="text"
-                class="form-control"
-                id="exampleInputName"
-                aria-describedby="nameHelp"
-                style="background-color: #f4f4f4"
-                placeholder="Enter your name"
-              />
-            </div>
-            <div class="mb-3 w-100">
-              <label for="exampleInputEmail1" class="form-label"
-                >Email address</label
-              >
-              <input
-                type="email"
-                class="form-control"
-                id="exampleInputEmail1"
-                aria-describedby="emailHelp"
-                style="background-color: #f4f4f4"
-                placeholder="Enter your email"
-              />
-              <div id="emailHelp" class="form-text">
-                We'll never share your email with anyone else.
-              </div>
-            </div>
-            <div class="mb-3 w-100">
-              <label for="exampleTextarea" class="form-label">Message</label>
-              <textarea
-                class="form-control"
-                id="exampleTextarea"
-                rows="3"
-                style="background-color: #f4f4f4"
-                placeholder="Message"
-              ></textarea>
-            </div>
-            <button
-              type="submit"
-              class="btn visit"
-              style="background-color: #ffc107; color: #0a58ca"
-            >
-              Submit
-            </button>
-          </form>
+  class="bg-white p-4 p-lg-5 rounded d-flex flex-column align-items-center"
+  action="https://formspree.io/f/xleqqgwb" 
+  method="post"
+>
+  <div class="mb-3 w-100">
+    <label for="exampleInputName" class="form-label">Name</label>
+    <input
+      type="text"
+      class="form-control"
+      id="exampleInputName"
+      name="name"
+      aria-describedby="nameHelp"
+      style="background-color: #f4f4f4"
+      placeholder="Enter your name"
+      required
+    />
+  </div>
+  <div class="mb-3 w-100">
+    <label for="exampleInputEmail1" class="form-label">Email address</label>
+    <input
+      type="email"
+      class="form-control"
+      id="exampleInputEmail1"
+      name="email"
+      aria-describedby="emailHelp"
+      style="background-color: #f4f4f4"
+      placeholder="Enter your email"
+      required
+    />
+    <div id="emailHelp" class="form-text">
+      We'll never share your email with anyone else.
+    </div>
+  </div>
+  <div class="mb-3 w-100">
+    <label for="exampleTextarea" class="form-label">Message</label>
+    <textarea
+      class="form-control"
+      id="exampleTextarea"
+      name="message"
+      rows="3"
+      style="background-color: #f4f4f4"
+      placeholder="Message"
+      required
+    ></textarea>
+  </div>
+  <button
+    type="submit"
+    class="btn visit"
+    style="background-color: #ffc107; color: #0a58ca"
+  >
+    Submit
+  </button>
+</form>
+
         </div>
       </section>
   
@@ -288,16 +296,7 @@
             </p>
           </div>
           <div class="footer col-md-6 col-lg-6">
-            <div class="social-container">
-              <a class="" href="#">
-                <img src="./assets/images/facebook.svg" alt="" />
-              </a>
-            </div>
-            <div class="social-container">
-              <a class="" href="#">
-                <img src="./assets/images/instagram.svg" alt="" />
-              </a>
-            </div>
+            
             <div class="social-container">
               <a
                 class=""
@@ -306,11 +305,7 @@
                 <img src="./assets/images/linkedin.svg" alt="" />
               </a>
             </div>
-            <div class="social-container">
-              <a class="" href="#">
-                <img src="./assets/images/youtube-color.svg" alt="" />
-              </a>
-            </div>
+            
             <div class="social-container">
               <a class="" href="https://github.com/Manasheh/portfolio">
                 <img src="./assets/images/icons8-github.svg" alt="" />
